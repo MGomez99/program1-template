@@ -8,10 +8,10 @@ class Planet{
 		int distance;
 		char type;
 	public:
-	Planet(int);
+	Planet();
         int orbit();
-	int getID(){
-	  return this->id;
+	long getID(){
+	  return (long)this;
 	};
         int getDistance(){
 	  return this->distance;
